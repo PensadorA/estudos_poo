@@ -5,6 +5,7 @@ lista_pessoas = []
 
 class Pessoa:
     id = 1000
+
     def __init__(self, nome, idade, cpf):
         self.__nome = nome
         self.__idade = idade
